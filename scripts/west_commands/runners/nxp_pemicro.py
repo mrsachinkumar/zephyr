@@ -38,6 +38,10 @@ class NxPPemicroRunner(ZephyrBinaryRunner):
         parser.add_argument("--soc-name")
         parser.add_argument("--soc-family-name")
         parser.add_argument("--speed")
+        parser.add_argument(
+        "--loadTo",
+        help="Load target (ignored)",
+    )
 
     @classmethod
     def do_create(cls, cfg, args):

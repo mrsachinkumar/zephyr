@@ -1,0 +1,20 @@
+# SPDX-FileCopyrightText: Copyright The Zephyr Project Contributors
+# SPDX-License-Identifier: Apache-2.0
+
+identifier: s32k3x4evb_t172/s32k344/m7
+name: NXP S32K3X4EVB-172
+vendor: nxp
+type: mcu
+arch: arm
+ram: 512
+flash: 32768
+toolchain:
+  - zephyr
+supported:
+  - gpio
+  - uart
+  - can
+  - adc
+  - dma
+  - spi
+  - uart
